@@ -65,14 +65,14 @@ Write-Output "------------------------------------------------------------------
  Write-Output "> Downloading Win11Debloat..."
 
 # Download latest version of Win11Debloat from github as zip archive
- Invoke-WebRequest http://github.com/EvolveOS-Setup/Win11debloat/Data-Files/master.zip -OutFile "$env:TEMP/win11debloat-temp.zip"
+# Invoke-WebRequest http://github.com/EvolveOS-Setup/Win11debloat/Data-Files/master.zip -OutFile "$env:TEMP/win11debloat-temp.zip"
 
 # Remove old script folder if it exists, except for CustomAppsList and SavedSettings files
- if (Test-Path "$env:TEMP/Win11Debloat/Win11Debloat-master") {
-     Write-Output ""
-     Write-Output "> Cleaning up old Win11Debloat folder..."
-     Get-ChildItem -Path "$env:TEMP/Win11Debloat/Win11Debloat-master" -Exclude CustomAppsList,SavedSettings | Remove-Item -Recurse -Force
- }
+# if (Test-Path "$env:TEMP/Win11Debloat/Win11Debloat-master") {
+#     Write-Output ""
+#     Write-Output "> Cleaning up old Win11Debloat folder..."
+#     Get-ChildItem -Path "$env:TEMP/Win11Debloat/Win11Debloat-master" -Exclude CustomAppsList,SavedSettings | Remove-Item -Recurse -Force
+# }
 
  Write-Output ""
  Write-Output "> Unpacking..."
