@@ -65,7 +65,7 @@ Write-Output "------------------------------------------------------------------
  Write-Output "> Downloading Win11Debloat..."
 
 # Download latest version of Win11Debloat from github as zip archive
- Invoke-WebRequest https://github.com/EvolveOS-Setup/EvolveOS-DataFiles/raw/refs/heads/main/Win11debloat/Data-Files/master.zip -OutFile "$env:TEMP/win11debloat-temp.zip"
+ Invoke-WebRequest https://github.com/EvolveOS-Software/EvolveOS-DataFiles/raw/refs/heads/main/Win11debloat/Data-Files/master.zip -OutFile "$env:TEMP/win11debloat-temp.zip"
 
 # Remove old script folder if it exists, except for CustomAppsList and SavedSettings files
  if (Test-Path "$env:TEMP/Win11Debloat/Win11Debloat-master") {
