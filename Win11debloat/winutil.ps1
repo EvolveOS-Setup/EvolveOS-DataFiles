@@ -13185,7 +13185,7 @@ $sync.configs.tweaks = @'
         "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects",
         "OriginalValue": "1",
         "Name": "VisualFXSetting",
-        "Value": "3",
+        "Value": "1",
         "Type": "DWord"
       },
       {
