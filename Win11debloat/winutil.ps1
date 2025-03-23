@@ -4154,8 +4154,8 @@ function Invoke-WinutilThemeChange {
         }
     }
 
-    $LightPreferencePath = "$env:LOCALAPPDATA\winutil\LightTheme.ini"
-    $DarkPreferencePath = "$env:LOCALAPPDATA\winutil\DarkTheme.ini"
+    $LightPreferencePath = "$env:LOCALAPPDATA\evolveos\LightTheme.ini"
+    $DarkPreferencePath = "$env:LOCALAPPDATA\evolveos\DarkTheme.ini"
 
     if ($init) {
         Set-WinutilTheme -currentTheme "shared"
@@ -15841,7 +15841,7 @@ Invoke-WPFUIElements -configVariable $sync.configs.feature -targetGridName "feat
 $xaml.SelectNodes("//*[@Name]") | ForEach-Object {$sync["$("$($psitem.Name)")"] = $sync["Form"].FindName($psitem.Name)}
 
 #Persist the Chocolatey preference across winutil restarts
-$ChocoPreferencePath = "$env:LOCALAPPDATA\winutil\preferChocolatey.ini"
+$ChocoPreferencePath = "$env:LOCALAPPDATA\evolveos\preferChocolatey.ini"
 $sync.ChocoRadioButton.Add_Checked({New-Item -Path $ChocoPreferencePath -Force })
 $sync.ChocoRadioButton.Add_Unchecked({Remove-Item $ChocoPreferencePath -Force})
 if (Test-Path $ChocoPreferencePath) {
@@ -16186,7 +16186,7 @@ $NavLogoPanel.Children.Add((Invoke-WinUtilAssets -Type "logo" -Size 25)) | Out-N
 $winutildir = @{}
 
 # Set the path for the winutil directory
-$winutildir["path"] = "$env:LOCALAPPDATA\winutil\"
+$winutildir["path"] = "$env:LOCALAPPDATA\evolveos\"
 [System.IO.Directory]::CreateDirectory($winutildir["path"]) | Out-Null
 
 $winutildir["logo.ico"] = $winutildir["path"] + "cttlogo.ico"
