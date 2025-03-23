@@ -13133,9 +13133,9 @@ $sync.configs.tweaks = @'
     "Order": "a027_",
     "registry": [
       {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\DragFullWindows",
+        "Path": "HKCU:\\Control Panel\\Desktop",
         "OriginalValue": "1",
-        "Name": "DefaultValue",
+        "Name": "DragFullWindows",
         "Value": "1",
         "Type": "String"
       },
@@ -13161,23 +13161,23 @@ $sync.configs.tweaks = @'
         "Type": "DWord"
       },
       {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\AnimateMinMax",
+        "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
         "OriginalValue": "1",
-        "Name": "DefaultValue",
-        "Value": "0",
+        "Name": "ListviewAlphaSelect",
+        "Value": "1",
         "Type": "DWord"
       },
       {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\TaskbarAnimations",
+        "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
         "OriginalValue": "1",
-        "Name": "DefaultValue",
-        "Value": "0",
+        "Name": "ListviewShadow",
+        "Value": "1",
         "Type": "DWord"
       },
       {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\DWMAeroPeekEnabled",
+        "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
         "OriginalValue": "1",
-        "Name": "DefaultValue",
+        "Name": "TaskbarAnimations",
         "Value": "0",
         "Type": "DWord"
       },
@@ -13189,94 +13189,38 @@ $sync.configs.tweaks = @'
         "Type": "DWord"
       },
       {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\MenuAnimation",
+        "Path": "HKCU:\\Software\\Microsoft\\Windows\\DWM",
         "OriginalValue": "1",
-        "Name": "DefaultValue",
+        "Name": "EnableAeroPeek",
         "Value": "0",
         "Type": "DWord"
       },
       {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\TooltipAnimation",
+        "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
         "OriginalValue": "1",
-        "Name": "DefaultValue",
+        "Name": "TaskbarMn",
         "Value": "0",
         "Type": "DWord"
       },
       {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\SelectionFade,
+        "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
         "OriginalValue": "1",
-        "Name": "DefaultValue",
+        "Name": "TaskbarDa",
         "Value": "0",
         "Type": "DWord"
       },
       {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\DWMSaveThumbnailEnabled",
+        "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
         "OriginalValue": "1",
-        "Name": "DefaultValue",
+        "Name": "ShowTaskViewButton",
         "Value": "0",
         "Type": "DWord"
       },
       {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\CursorShadow",
+        "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Search",
         "OriginalValue": "1",
-        "Name": "DefaultValue",
-        "Value": "1",
-        "Type": "DWord"
-      },
-	  {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\DropShadow",
-        "OriginalValue": "1",
-        "Name": "DefaultValue",
-        "Value": "1",
-        "Type": "DWord"
-      },
-	  {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\ThumbnailsOrIcon",
-        "OriginalValue": "1",
-        "Name": "DefaultValue",
-        "Value": "1",
-        "Type": "DWord"
-      },
-	  {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\ListviewAlphaSelect",
-        "OriginalValue": "1",
-        "Name": "DefaultValue",
-        "Value": "1",
-        "Type": "DWord"
-      },
-	  {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\DragFullWindows",
-        "OriginalValue": "1",
-        "Name": "DefaultValue",
-        "Value": "1",
-        "Type": "DWord"
-      },
-	  {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\ComboBoxAnimation",
-        "OriginalValue": "1",
-        "Name": "DefaultValue",
-        "Value": "1",
-        "Type": "DWord"
-      },
-	  {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\FontSmoothing",
-        "OriginalValue": "1",
-        "Name": "DefaultValue",
-        "Value": "1",
-        "Type": "DWord"
-      },
-	  {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\ListBoxSmoothScrolling",
-        "OriginalValue": "1",
-        "Name": "DefaultValue",
-        "Value": "1",
-        "Type": "DWord"
-      },
-	  {
-        "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects\\ListviewShadow",
-        "OriginalValue": "1",
-        "Name": "DefaultValue",
-        "Value": "1",
+        "Name": "SearchboxTaskbarMode",
+        "Value": "0",
         "Type": "DWord"
       }
     ],
